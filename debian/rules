@@ -4,3 +4,7 @@
 
 %:
 	dh ${@} --buildsystem cmake --parallel
+
+
+override_dh_auto_install:
+	dh_auto_install -- DESTDIR=$(CURDIR)/debian/lxqt-about
