@@ -33,12 +33,3 @@ Description: About screen for LXQt
  .
  This package contain the LXQt about screen.
 
-# ---- to be removed in 2016 ----
-
-Package: lxqt-about-qt5
-Depends: lxqt-about, ${misc:Depends}
-Priority: extra
-Section: oldlibs
-Architecture: all
-Description: lxqt-about transitional package
- Empty package to facilitate upgrades, can be safely removed.
