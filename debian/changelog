@@ -1,5 +1,19 @@
-lxqt-about (0.9.0-1) experimental; urgency=low
+lxqt-about (0.9.0+20150806-1) unstable; urgency=medium
 
-  * Initial release (Closes: #747600, #765768)
+  [ Alf Gaida ]
+  * Some cleanup in ./debian $foo.
+  * fix dependencies.
+  * drop metapackage.
+  * Initial release. (Closes: #747600, #765768)
 
- -- Alf Gaida <agaida@siduction.org>  Sat, 14 Feb 2015 18:18:41 +0100
+  [ Andrew Lee (李健秋) ]
+  * Merging upstream version 0.9.0+20150806.
+  * Added myself as Uploader.
+  * Sorting build-depends.
+  * debian/copyright: Drop GPL-2.0+ license as I couldn't find any headers
+    mention that.
+  * Removing whitespaces at EOL and EOF.
+  * Updating .desktop file. Make it match registered categories to avoid
+    lintian warns.
+
+ -- Andrew Lee (李健秋) <ajqlee@debian.org>  Fri, 14 Aug 2015 19:53:50 +0800
