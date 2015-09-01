@@ -1,3 +1,9 @@
+lxqt-about (0.9.0+20150830-1) unstable; urgency=medium
+
+  * Cherry-picking upstream version 0.9.0+20150830
+
+ -- Alf Gaida <agaida@siduction.org>  Wed, 02 Sep 2015 00:23:03 +0200
+
 lxqt-about (0.9.0+20150806-2) unstable; urgency=medium
 
   * Added linker flags -Wl,--as-needed
