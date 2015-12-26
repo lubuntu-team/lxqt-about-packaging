@@ -1,3 +1,10 @@
+lxqt-about (0.10.0-3) unstable; urgency=medium
+
+  * Cleanup debian/rules, create -dbgsym.
+  * renamed the patch for fixed translations
+
+ -- Alf Gaida <agaida@siduction.org>  Sat, 26 Dec 2015 17:35:19 +0100
+
 lxqt-about (0.10.0-2) unstable; urgency=medium
 
   * Merge from experimental.
