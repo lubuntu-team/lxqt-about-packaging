@@ -1,3 +1,20 @@
+lxqt-about (0.10.0-4) UNRELEASED; urgency=medium
+
+  * Preparing the upcoming release, switch to experimental
+  * Added build dependency libqt5xdgiconloader-dev
+  * removed minimum versions for libqt5xdg-dev 
+  * Bumped Standards to 3.9.8, no changes needed
+  * Dropped patches, applied upstream
+  * Fixed VCS-Fields, use https
+  * Added recommends lxqt-about-l10n
+  * Bumped copyright years
+  * Added hardening to rules
+  * Added translation control to rules
+  * Set CMAKE_BUILD_TYPE=RelWithDebInfo
+  * Added README.md to docs
+
+ -- Alf Gaida <agaida@siduction.org>  Thu, 14 Jul 2016 20:26:33 +0200
+
 lxqt-about (0.10.0-3) unstable; urgency=medium
 
   * Cleanup debian/rules, create -dbgsym.
