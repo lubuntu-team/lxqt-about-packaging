@@ -1,5 +1,16 @@
-lxqt-about (0.10.0-4) UNRELEASED; urgency=medium
+lxqt-about (0.10.96~12-g8c1e642-2) experimental; urgency=medium
 
+  * Added build dependencies gcc (>= 4:6), g++ (>= 4:6)
+  * Exported LC_ALL=C.UTF-8 - define language settings for reproducable
+    builds
+  * Set additional minumum versions (libqtxdg, liblxqt) 
+  * Fixed copyright Format field 
+
+ -- Alf Gaida <agaida@siduction.org>  Sun, 17 Jul 2016 12:58:44 +0200
+
+lxqt-about (0.10.96~12-g8c1e642-1) experimental; urgency=medium
+
+  * Cherry-picking upstream version 0.10.96~12-g8c1e642.
   * Preparing the upcoming release, switch to experimental
   * Added build dependency libqt5xdgiconloader-dev
   * removed minimum versions for libqt5xdg-dev 
@@ -13,7 +24,7 @@ lxqt-about (0.10.0-4) UNRELEASED; urgency=medium
   * Set CMAKE_BUILD_TYPE=RelWithDebInfo
   * Added README.md to docs
 
- -- Alf Gaida <agaida@siduction.org>  Thu, 14 Jul 2016 20:26:33 +0200
+ -- Alf Gaida <agaida@siduction.org>  Thu, 14 Jul 2016 20:52:08 +0200
 
 lxqt-about (0.10.0-3) unstable; urgency=medium
 
