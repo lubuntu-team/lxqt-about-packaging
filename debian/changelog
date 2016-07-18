@@ -1,3 +1,14 @@
+lxqt-about (0.10.0-4) unstable; urgency=medium
+
+  * Bump Standards to 3.9.8, no changes needed 
+  * Fixed VCS fields, use https and plain /git/
+  * Fixed copyright Format field, use https
+  * Bump year in copyright
+  * Exported LC_ALL=C.UTF-8, make builds reproducible
+  * Added hardening flags
+
+ -- Alf Gaida <agaida@siduction.org>  Tue, 19 Jul 2016 01:39:29 +0200
+
 lxqt-about (0.10.0-3) unstable; urgency=medium
 
   * Cleanup debian/rules, create -dbgsym.
