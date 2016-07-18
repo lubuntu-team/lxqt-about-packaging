@@ -1,9 +1,15 @@
+lxqt-about (0.10.96~12-g8c1e642-3) experimental; urgency=medium
+
+  * Fixed typos in changelog
+
+ -- Alf Gaida <agaida@siduction.org>  Tue, 19 Jul 2016 01:28:46 +0200
+
 lxqt-about (0.10.96~12-g8c1e642-2) experimental; urgency=medium
 
   * Added build dependencies gcc (>= 4:6), g++ (>= 4:6)
-  * Exported LC_ALL=C.UTF-8 - define language settings for reproducable
+  * Exported LC_ALL=C.UTF-8 - define language settings for reproducible
     builds
-  * Set additional minumum versions (libqtxdg, liblxqt) 
+  * Set additional minimum versions (libqtxdg, liblxqt) 
   * Fixed copyright Format field 
 
  -- Alf Gaida <agaida@siduction.org>  Sun, 17 Jul 2016 12:58:44 +0200
