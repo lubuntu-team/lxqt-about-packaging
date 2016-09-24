@@ -1,3 +1,16 @@
+lxqt-about (0.11.0-1) experimental; urgency=medium
+
+  * Cherry-picking upstream release: 0.11.0
+  * Bump compat to 10
+  * Bump minimum version debhelper (>= 10)
+  * Bump minimum version liblxqt0-dev (>= 0.11.0)
+  * Bump minimum version libqt5xdg-dev (>= 2.0.0)
+  * Bump minimum version libqt5xdgiconloader-dev (>= 2.0.0)
+  * Added build dependency libqt5svg5-dev
+  * Removed --parallel from rules, standard in dh 10
+
+ -- Alf Gaida <agaida@siduction.org>  Sat, 24 Sep 2016 21:50:11 +0200
+
 lxqt-about (0.10.96~12-g8c1e642-3) experimental; urgency=medium
 
   * Fixed typos in changelog
