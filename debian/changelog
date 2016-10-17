@@ -1,3 +1,24 @@
+lxqt-about (0.11.0-2) unstable; urgency=medium
+
+  * Cherry-picking upstream release: 0.11.0
+  * Sync debian foo with experimental
+  * Bump compat to 10
+  * Removed --parallel from rules, standard compat 10
+  * Bump minimum version debhelper (>= 10)
+  * Bump minimum version liblxqt0-dev (>= 0.11.0)
+  * Bump minimum version libqt5xdg-dev (>= 2.0.0)
+  * Added build dependency libqt5xdgiconloader-dev (>= 2.0.0)
+  * Added build dependency libqt5svg5-dev
+  * Added recommends lxqt-about-l10n
+  * Exported LC_ALL=C.UTF-8 - define language settings for reproducible
+    builds
+  * Dropped patches, applied upstream
+  * Added translation control to rules
+  * Set CMAKE_BUILD_TYPE=RelWithDebInfo
+  * Added README.md to docs
+
+ -- Alf Gaida <agaida@siduction.org>  Tue, 18 Oct 2016 01:23:53 +0200
+
 lxqt-about (0.10.0-4) unstable; urgency=medium
 
   * Bump Standards to 3.9.8, no changes needed 
