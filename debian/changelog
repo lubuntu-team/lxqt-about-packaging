@@ -1,3 +1,14 @@
+lxqt-about (0.12.0-5) unstable; urgency=medium
+
+  * Bumped Standards to 4.1.4, no changes needed
+  * Bumped compat to 11
+  * Bumped debhelper to >= 11~
+  * Fixed Homepage and Source to lxqt
+  * Changed VCS fields for salsa
+  * Fixed years in copyright
+
+ -- Alf Gaida <agaida@siduction.org>  Fri, 27 Apr 2018 22:40:19 +0200
+
 lxqt-about (0.12.0-4) unstable; urgency=medium
 
   * Bumped Standards to 4.1.2, no changes needed
