@@ -21,10 +21,8 @@ Homepage: https://github.com/lxqt/lxqt-about
 
 Package: lxqt-about
 Architecture: any
-Depends: ${misc:Depends},
-         ${shlibs:Depends}
-Recommends: lxqt-about-l10n,
-            lxqt-qtplugin
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Recommends: lxqt-about-l10n, lxqt-qtplugin
 Description: About screen for LXQt
  The about screen for LXQt
  .
@@ -34,8 +32,7 @@ Package: lxqt-about-l10n
 Architecture: all
 Multi-Arch: foreign
 Section: localization
-Depends: ${misc:Depends},
-         qttranslations5-l10n
+Depends: qttranslations5-l10n, ${misc:Depends}
 Breaks: lxqt-about (<< 0.11.0)
 Replaces: lxqt-about (<< 0.11.0)
 Description: Language package for lxqt-about

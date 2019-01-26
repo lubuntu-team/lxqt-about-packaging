@@ -5,6 +5,7 @@ lxqt-about (0.14.0-0ubuntu1) UNRELEASED; urgency=medium
   * Bump Standards-version to 4.3.0, no changes needed.
   * Bump debhelper compat to 12, no changes needed.
   * Add a lxqt-about-l10n package.
+  * Wraaaaaaap.
 
  -- Simon Quigley <tsimonq2@ubuntu.com>  Fri, 25 Jan 2019 23:46:51 -0600
 
@@ -101,7 +102,7 @@ lxqt-about (0.11.0-2) unstable; urgency=medium
 
 lxqt-about (0.10.0-4) unstable; urgency=medium
 
-  * Bump Standards to 3.9.8, no changes needed 
+  * Bump Standards to 3.9.8, no changes needed
   * Fixed VCS fields, use https and plain /git/
   * Fixed copyright Format field, use https
   * Bump year in copyright
