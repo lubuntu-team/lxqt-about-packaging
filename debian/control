@@ -33,7 +33,7 @@ Architecture: all
 Multi-Arch: foreign
 Section: localization
 Depends: qttranslations5-l10n, ${misc:Depends}
-Breaks: lxqt-about (<< 0.11.0)
-Replaces: lxqt-about (<< 0.11.0)
+Breaks: lxqt-about (<< 0.11.0), lxqt-about-l10n (<< 0.14.0)
+Replaces: lxqt-about (<< 0.11.0), lxqt-about-l10n (<< 0.14.0)
 Description: Language package for lxqt-about
  This package contains the l10n files needed by the lxqt-about.
