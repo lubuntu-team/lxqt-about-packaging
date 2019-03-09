@@ -1,8 +1,8 @@
-lxqt-about (0.14.1-0ubuntu1) UNRELEASED; urgency=medium
+lxqt-about (0.14.1-0ubuntu1) disco; urgency=medium
 
   * New upstream release.
 
- -- Simon Quigley <tsimonq2@ubuntu.com>  Sat, 09 Mar 2019 12:44:54 -0600
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Sat, 09 Mar 2019 12:45:10 -0600
 
 lxqt-about (0.14.0-0ubuntu2) disco; urgency=medium
 
