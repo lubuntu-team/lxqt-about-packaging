@@ -1,3 +1,9 @@
+lxqt-about (0.14.1-0ubuntu1) UNRELEASED; urgency=medium
+
+  * New upstream release.
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Sat, 09 Mar 2019 12:44:54 -0600
+
 lxqt-about (0.14.0-0ubuntu2) disco; urgency=medium
 
   * Add Breaks/Replaces on lxqt-about-l10n.
