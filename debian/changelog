@@ -1,8 +1,35 @@
+lxqt-about (0.14.1-1ubuntu1) focal; urgency=low
+
+  * Merge from Debian unstable.  Remaining changes:
+    - Updated the control file for new depends.
+
+ -- Raman Sarda <theloudspeaker@lubuntu.me>  Sat, 09 Mar 2019 20:44:31 +0000
+
+lxqt-about (0.14.1-1) unstable; urgency=medium
+
+  * Cherry-picking upstream release: 0.14.1.
+  * Bumped minimum version liblxqt0-dev (>= 0.14.1~)
+
+ -- Alf Gaida <agaida@siduction.org>  Tue, 26 Feb 2019 01:28:48 +0100
+
 lxqt-about (0.14.1-0ubuntu1) disco; urgency=medium
 
   * New upstream release.
 
  -- Simon Quigley <tsimonq2@ubuntu.com>  Sat, 09 Mar 2019 12:45:10 -0600
+
+lxqt-about (0.14.0-1) unstable; urgency=medium
+
+  * Cherry-picking upstream release: 0.14.0.
+  * Bumped Standards to 4.3.0, no changes needed
+  * Dropped d/compat, use debhelper-compat = 12, no changes needed
+  * Fixed years in d/copyright
+  * Bumped minimum version liblxqt0-dev (>= 0.14.0~)
+  * Removed obsolete PULL_TRANSLATIONS= OFF from dh_auto_configure
+  * Added l10n-package, moved from lxqt-l10n
+  * Added d/upstream/metadata
+
+ -- Alf Gaida <agaida@siduction.org>  Sun, 27 Jan 2019 16:05:00 +0100
 
 lxqt-about (0.14.0-0ubuntu2) disco; urgency=medium
 
@@ -20,6 +47,13 @@ lxqt-about (0.14.0-0ubuntu1) disco; urgency=medium
   * Wraaaaaaap.
 
  -- Simon Quigley <tsimonq2@ubuntu.com>  Fri, 25 Jan 2019 23:52:29 -0600
+
+lxqt-about (0.13.0-1) unstable; urgency=medium
+
+  * Cherry-picking upstream release: 0.13.0.
+  * Bumped build dependency liblxqt0-dev to >= 0.13.0~
+
+ -- Alf Gaida <agaida@siduction.org>  Thu, 24 May 2018 20:02:55 +0200
 
 lxqt-about (0.13.0-0ubuntu1) cosmic; urgency=medium
 
@@ -165,3 +199,4 @@ lxqt-about (0.9.0+20150806-1) unstable; urgency=medium
     lintian warns.
 
  -- Andrew Lee (李健秋) <ajqlee@debian.org>  Fri, 14 Aug 2015 19:53:50 +0800
+
