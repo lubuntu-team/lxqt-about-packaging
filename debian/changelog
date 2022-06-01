@@ -3,6 +3,7 @@ lxqt-about (1.1.0-0ubuntu1) UNRELEASED; urgency=medium
   * New upstream release.
   * Bump liblxqt build dependency.
   * Drop Breaks/Replaces, since we're past the LTS.
+  * Add the new lxqt-about.svg to the install file.
 
  -- Simon Quigley <tsimonq2@ubuntu.com>  Wed, 01 Jun 2022 14:17:48 -0500
 
