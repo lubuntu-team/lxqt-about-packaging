@@ -7,6 +7,7 @@ lxqt-about (1.1.0-0ubuntu1~ppa1) jammy; urgency=medium
   * Updated lintian-overrides to say "no-manual-page" rather than
     "binary-without-manpage".
   * Added "Rules-Requires-Root: no" to debian/control.
+  * Removed trailing whitespace from changelog.
 
  -- Aaron Rainbolt <arraybolt3@gmail.com>  Sun, 03 Jul 2022 20:49:23 -0500
 
@@ -264,4 +265,3 @@ lxqt-about (0.9.0+20150806-1) unstable; urgency=medium
     lintian warns.
 
  -- Andrew Lee (李健秋) <ajqlee@debian.org>  Fri, 14 Aug 2015 19:53:50 +0800
-
