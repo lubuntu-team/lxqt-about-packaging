@@ -8,6 +8,7 @@ lxqt-about (1.1.0-0ubuntu1~ppa1) jammy; urgency=medium
     "binary-without-manpage".
   * Added "Rules-Requires-Root: no" to debian/control.
   * Removed trailing whitespace from changelog.
+  * Created debian/upstream/metadata file for lxqt-about.
 
  -- Aaron Rainbolt <arraybolt3@gmail.com>  Sun, 03 Jul 2022 20:49:23 -0500
 
