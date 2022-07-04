@@ -18,6 +18,7 @@ Vcs-Git: https://phab.lubuntu.me/source/lxqt-about.git
 XS-Debian-Vcs-Browser: https://salsa.debian.org/lxqt-team/lxqt-about
 XS-Debian-Vcs-Git: https://salsa.debian.org/lxqt-team/lxqt-about.git
 Homepage: https://github.com/lxqt/lxqt-about
+Rules-Requires-Root: no
 
 Package: lxqt-about
 Architecture: any

@@ -6,6 +6,7 @@ lxqt-about (1.1.0-0ubuntu1~ppa1) jammy; urgency=medium
   * Removed obsolete "-Wl,--as-needed" linker flag.
   * Updated lintian-overrides to say "no-manual-page" rather than
     "binary-without-manpage".
+  * Added "Rules-Requires-Root: no" to debian/control.
 
  -- Aaron Rainbolt <arraybolt3@gmail.com>  Sun, 03 Jul 2022 20:49:23 -0500
 
