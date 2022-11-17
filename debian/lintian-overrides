@@ -1,2 +1,2 @@
 # lxqt-about will never have a man-page
-lxqt-about: binary-without-manpage usr/bin/lxqt-about
+lxqt-about: no-manual-page [usr/bin/lxqt-about]
