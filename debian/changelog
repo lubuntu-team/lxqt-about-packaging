@@ -1,3 +1,20 @@
+lxqt-about (1.1.0-3) unstable; urgency=medium
+
+  * Reorganized improper changes from debian/experimental branch:
+    * debian/control: Bump Standards-Version to 4.6.1.
+    * debian/control: Bump debhelper to 13.
+    * debian/copyright: sync from lubuntu.
+    * debian/lintian-overrides: fix no-manual-page override.
+    * debian/lxqt-about.install: sort lines.
+    * debian/rules: Remove unnecessary -Wl,--as-needed.
+    * debian/upstream/signing-key: Update.
+    * debian/control: Update lxqt-about-l10n description.
+  * debian/upstream/metadata: Change Repository-Browser field to
+    Repository-Browse.
+  * debian/watch: fix uscan error.
+
+ -- Andrew Lee (李健秋) <ajqlee@debian.org>  Wed, 09 Nov 2022 14:09:57 +0800
+
 lxqt-about (1.1.0-2) experimental; urgency=medium
 
   * Upstreamed changes from Ubuntu, modifying the following files:
