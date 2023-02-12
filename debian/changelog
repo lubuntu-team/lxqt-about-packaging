@@ -1,5 +1,9 @@
 lxqt-about (1.2.0-1ubuntu1) lunar; urgency=medium
 
+  [ ChangZhuo Chen]
+  * Add Rules-Requires-Root: no.
+
+  [ Aaron Rainbolt ]
   * Revert a sync from Debian.
   * Bumped Standards-Version to 4.6.2, no changes necessary.
 
