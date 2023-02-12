@@ -1,10 +1,17 @@
-lxqt-about (1.2.0-1) unstable; urgency=medium
+lxqt-about (1.2.0-1ubuntu1) lunar; urgency=medium
+
+  * Revert a sync from Debian.
+
+ -- Aaron Rainbolt <arraybolt3@ubuntu.com>  Sun, 12 Feb 2023 10:48:46 -0600
+
+lxqt-about (1.2.0-0ubuntu1) lunar; urgency=medium
 
   * New upstream release.
-  * Add Rules-Requires-Root: no.
-  * Update d/watch for GitHub.
+  * Fix the watch file, for real this time.
+  * Lubuntuify the package slightly, to make debhelper happy.
+  * Bump build dependencies in debian/control.
 
- -- ChangZhuo Chen (陳昌倬) <czchen@debian.org>  Wed, 14 Dec 2022 22:29:15 +0800
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Thu, 17 Nov 2022 17:51:11 -0600
 
 lxqt-about (1.1.0-3) unstable; urgency=medium
 
