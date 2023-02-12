@@ -6,6 +6,7 @@ lxqt-about (1.2.0-1ubuntu1) lunar; urgency=medium
   [ Aaron Rainbolt ]
   * Revert a sync from Debian.
   * Bumped Standards-Version to 4.6.2, no changes necessary.
+  * Updated copyright file.
 
  -- Aaron Rainbolt <arraybolt3@ubuntu.com>  Sun, 12 Feb 2023 10:48:46 -0600
 
