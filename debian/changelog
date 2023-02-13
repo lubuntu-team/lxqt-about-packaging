@@ -1,6 +1,12 @@
+lxqt-about (1.2.0-1ubuntu2) lunar; urgency=medium
+
+  * Fixed a typo in the changelog.
+
+ -- Aaron Rainbolt <arraybolt3@ubuntu.com>  Sun, 12 Feb 2023 20:28:40 -0600
+
 lxqt-about (1.2.0-1ubuntu1) lunar; urgency=medium
 
-  [ ChangZhuo Chen]
+  [ ChangZhuo Chen ]
   * Add Rules-Requires-Root: no.
 
   [ Aaron Rainbolt ]
