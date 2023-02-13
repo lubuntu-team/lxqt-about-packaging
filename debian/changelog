@@ -1,6 +1,7 @@
 lxqt-about (1.2.0-1ubuntu2) lunar; urgency=medium
 
   * Fixed a typo in the changelog.
+  * Added ChangZhuo Chen to the copyright file.
 
  -- Aaron Rainbolt <arraybolt3@ubuntu.com>  Sun, 12 Feb 2023 20:28:40 -0600
 
