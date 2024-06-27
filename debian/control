@@ -7,11 +7,10 @@ Uploaders: Alf Gaida <agaida@siduction.org>,
 Section: x11
 Priority: optional
 Build-Depends: debhelper-compat (= 13),
-               libkf5windowsystem-dev,
-               liblxqt1-dev (>= 1.4.0),
-               libqt5svg5-dev,
-               libqt5x11extras5-dev,
-               libx11-dev
+               libkf6windowsystem-dev,
+               liblxqt2-dev (>= 1.4.0),
+               libx11-dev,
+               qt6-svg-dev
 Standards-Version: 4.7.0
 Vcs-Browser: https://git.lubuntu.me/Lubuntu/lxqt-about-packaging
 Vcs-Git: https://git.lubuntu.me/Lubuntu/lxqt-about-packaging.git
@@ -36,7 +35,7 @@ Architecture: all
 Multi-Arch: foreign
 Section: localization
 Depends: ${misc:Depends},
-         qttranslations5-l10n
+         qt6-translations-l10n
 Description: Language package for lxqt-about
  The about screen for LXQt
  .
