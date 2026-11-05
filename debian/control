@@ -5,7 +5,7 @@ Uploaders: Alf Gaida <agaida@siduction.org>,
            ChangZhuo Chen (陳昌倬) <czchen@debian.org>,
            Andrew Lee (李健秋) <ajqlee@debian.org>
 Section: x11
-Build-Depends: debhelper-compat (= 13),
+Build-Depends: debhelper-compat (= 14),
                libkf6windowsystem-dev,
                liblxqt2-dev (>= 2.5.0),
                libx11-dev,
@@ -19,7 +19,6 @@ Homepage: https://github.com/lxqt/lxqt-about
 
 Package: lxqt-about
 Architecture: any
-Depends: ${misc:Depends}, ${shlibs:Depends}
 Recommends: lxqt-about-l10n, lxqt-qtplugin
 Description: About screen for LXQt
  The about screen for LXQt
@@ -30,7 +29,7 @@ Package: lxqt-about-l10n
 Architecture: all
 Multi-Arch: foreign
 Section: localization
-Depends: qt6-translations-l10n, ${misc:Depends}
+Depends: qt6-translations-l10n
 Description: Language package for lxqt-about
  The about screen for LXQt
  .
